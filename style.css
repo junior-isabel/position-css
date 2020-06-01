@@ -1,0 +1,13 @@
+li.header {
+    position: sticky;
+    top: 10px;
+    background-color: olivedrab;
+    color: #fafafa;
+    font-size: 50px;
+}
+li {
+    list-style-type: none;
+}
+li:not(.header) {
+    height: 20vh;
+}
